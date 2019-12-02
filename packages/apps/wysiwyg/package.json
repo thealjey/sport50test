@@ -1,0 +1,17 @@
+{
+  "name": "@sport50test/wysiwyg",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@sport50test/homepage": "^1.0.0",
+    "next": "canary",
+    "next-transpile-modules": "^2.3.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}

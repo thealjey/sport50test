@@ -1,0 +1,12 @@
+{
+  "name": "@sport50test/mainlayout",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@sport50test/theme": "^1.0.0",
+    "@material-ui/core": "^4.7.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-jsx": "^3.2.4"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "installConfig": {
+    "pnp": true
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.14",
+    "typescript": "^3.7.2",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "scripts": {
+    "commit": "npx git-cz"
+  }
+}
