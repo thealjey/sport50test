@@ -23,6 +23,6 @@
     "cz-conventional-changelog": "^3.0.2"
   },
   "scripts": {
-    "commit": "npx git-cz"
+    "commit": "git-cz"
   }
 }

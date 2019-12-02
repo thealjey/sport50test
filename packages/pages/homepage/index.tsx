@@ -14,7 +14,7 @@ const sizeProps = {
   type: "number"
 };
 
-const preventDefault: KeyboardEventHandler<HTMLDivElement> = evt =>
+const preventDefault: KeyboardEventHandler<HTMLInputElement> = evt =>
   evt.preventDefault();
 
 export const HomePage = () => {
